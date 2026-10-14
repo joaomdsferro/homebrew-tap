@@ -14,7 +14,7 @@ cask "omega-notch" do
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Omega Notch.app"
 
